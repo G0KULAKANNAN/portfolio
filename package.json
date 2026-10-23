@@ -1,0 +1,13 @@
+{
+  "name": "gokulakannan-portfolio-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack portfolio for Gokulakannan P using React and Node.js",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix client\" \"node server/server.js\"",
+    "start": "node server/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

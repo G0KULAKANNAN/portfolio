@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Rules for all collections: Projects, Certifications, Skills, About Settings
+    match /{document=**} {
+      allow read: if true; // Anyone can read portfolio data
+      allow write: if isAuthenticated(); // Only authenticated admin can write/update/delete
+    }
+  }
+}

@@ -1,0 +1,14 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    match /{allPaths=**} {
+      allow read: if true; // Public can download resume and view images
+      allow write: if isAuthenticated(); // Only authenticated admin can write or overwrite files
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "about": {
+    "name": "Gokulakannan P",
+    "statusBadge": "Security Monitoring • Threat Detection • Incident Response",
+    "title": "Aspiring SOC Analyst",
+    "professionalTitle": "Aspiring SOC Analyst | Cybersecurity Enthusiast",
+    "subtitle": "Aspiring SOC Analyst | Cybersecurity Enthusiast",
+    "tagline": "Learning Security Monitoring, Networking, Threat Detection, and Incident Response Through Hands-On Practice.",
+    "heroIntro": "Cybersecurity undergraduate with a strong interest in Security Operations Center (SOC) operations, network security, threat detection, and incident response. Dedicated to hands-on investigation, network packet inspection, and defensive security practices.",
+    "profileImageUrl": "blob:http://localhost:5173/c89ebe75-c82f-4738-9ace-6fc3c6713a2f",
+    "bioParagraph1": "I am a Cyber Security undergraduate at Erode Sengunthar Engineering College with a strong interest in Security Operations Center (SOC) operations, network security, threat detection, and incident response.",
+    "bioParagraph2": "I am building my cybersecurity knowledge through structured learning, networking fundamentals, security tools, hands-on exercises, and security-focused projects.",
+    "bioParagraph3": "I have gained exposure to cybersecurity through an internship at Codec Technologies Pvt. Ltd. and a Cybersecurity Analyst Job Simulation by Tata Consultancy Services (TCS), where I explored Identity and Access Management (IAM).",
+    "bioParagraph4": "My goal is to develop practical SOC Analyst skills and contribute to identifying, investigating, and responding to security threats.",
+    "cardObjectiveTitle": "Career Objective",
+    "cardObjectiveDesc": "Seeking an entry-level SOC Analyst or Cybersecurity Internship opportunity where I can apply my foundational knowledge, strengthen my investigation skills, and gain practical experience in security operations.",
+    "cardSocTitle": "SOC & Monitoring Focus",
+    "cardSocDesc": "Focusing on security monitoring concepts, alert analysis fundamentals, threat triage, and incident response procedures through structured defensive scenarios.",
+    "cardNetworkTitle": "Networking & Protocols",
+    "cardNetworkDesc": "Building strong foundations in TCP/IP, DNS, HTTP/HTTPS, IP addressing, and network ports to inspect packets and identify anomalies.",
+    "cardIamTitle": "IAM & Security Controls",
+    "cardIamDesc": "Practical exploration of Identity & Access Management (IAM) fundamentals, strategy assessment, and authentication safeguards including 2FA, session security, and hashing.",
+    "resumeUrl": "blob:http://localhost:5173/dd4852d0-2aab-4a3f-bf3c-41e46e998d0b",
+    "githubUrl": "https://github.com/G0KULAKANNAN",
+    "linkedinUrl": "https://www.linkedin.com/in/gokulakannan-p-a8b3b8397",
+    "tryhackmeUrl": "https://tryhackme.com/p/gokulakannan.cyber",
+    "email": "gokulakannan.cyber@gmail.com",
+    "phone": "+91 7358889119",
+    "location": "Erode, Tamil Nadu, India"
+  },
+  "skills": [
+    {
+      "id": "soc-cyber",
+      "title": "SOC & Cybersecurity",
+      "icon": "fa-shield-halved",
+      "skills": [
+        "SOC Fundamentals",
+        "Security Monitoring Concepts",
+        "Alert Analysis Fundamentals",
+        "Incident Response Fundamentals"
+      ],
+      "order": 1
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "icon": "fa-network-wired",
+      "skills": [
+        "TCP/IP",
+        "DNS",
+        "HTTP/HTTPS",
+        "IP Addressing",
+        "Network Ports"
+      ],
+      "order": 2
+    },
+    {
+      "id": "iam",
+      "title": "Identity and Access Management",
+      "icon": "fa-user-shield",
+      "skills": [
+        "IAM Fundamentals",
+        "Access Management Concepts",
+        "IAM Strategy Assessment"
+      ],
+      "order": 3
+    },
+    {
+      "id": "prog-lang",
+      "title": "Programming Language",
+      "icon": "fa-code",
+      "skills": [
+        "Python"
+      ],
+      "order": 4
+    },
+    {
+      "id": "sec-tools",
+      "title": "Security Tools",
+      "icon": "fa-toolbox",
+      "skills": [
+        "Wireshark",
+        "Nmap",
+        "Kali Linux"
+      ],
+      "order": 5
+    },
+    {
+      "id": "dev-collab",
+      "title": "Development and Collaboration",
+      "icon": "fa-code-branch",
+      "skills": [
+        "GitHub",
+        "Vercel",
+        "Netlify"
+      ],
+      "order": 6
+    },
+    {
+      "id": "os",
+      "title": "Operating Systems",
+      "icon": "fa-server",
+      "skills": [
+        "Windows OS Fundamentals",
+        "Linux Fundamentals"
+      ],
+      "order": 7
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "category": "Identity & Access Management",
+      "title": "SecureWatch – Secure Login & Authentication System",
+      "date": "June 2026",
+      "desc": "Developed a secure authentication app with registration, login/logout, session management, and email-based Two-Factor Authentication (2FA). Implemented bcrypt password hashing, CSRF protection, SQL injection prevention measures, OTP expiration, rate limiting, and account lockout to defend against authentication attacks.",
+      "tech": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Flask-SQLAlchemy",
+        "Flask-Login",
+        "Flask-WTF",
+        "Bcrypt",
+        "2FA / OTP"
+      ],
+      "github": "https://github.com/G0KULAKANNAN/Secure-Login-System-.git",
+      "live": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "proj-2",
+      "category": "Vulnerability Assessment",
+      "title": "Web Vulnerability Scanner",
+      "date": "April 2026",
+      "desc": "Built a full-stack web security scanner to identify common vulnerabilities and security weaknesses including SQL injection, Cross-Site Scripting (XSS), open ports, hidden directories, and missing security headers. Features an interactive security dashboard with scan history, risk-level analysis, and automated PDF & HTML security reports.",
+      "tech": [
+        "Python",
+        "Flask",
+        "React.js",
+        "Vite",
+        "Tailwind CSS",
+        "SQLite"
+      ],
+      "github": "https://github.com/G0KULAKANNAN/web-vulnerability-scanner.git",
+      "live": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "proj-3",
+      "category": "Security Analysis",
+      "title": "PhishGuard AI – Phishing Detection Model",
+      "date": "2026",
+      "desc": "A machine learning threat detection classifier that inspects email headers and body content using NLP vectorization, predicting threat probability and classifying email threat levels for faster investigation.",
+      "tech": [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "NumPy",
+        "Flask"
+      ],
+      "github": "https://github.com/G0KULAKANNAN/Phishing-Email-Detection-Model.git",
+      "live": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "proj-4",
+      "category": "Defensive Security",
+      "title": "CyberGuard – Password Security & Entropy Analyzer",
+      "date": "2025",
+      "desc": "An interactive client-side credential utility that evaluates password entropy, character diversity, and vulnerability patterns to educate users on defense-in-depth credential protection.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": "https://github.com/G0KULAKANNAN/Password-Strength-Analyzer.git",
+      "live": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "test-proj-session-audit",
+      "title": "Session Audit Project",
+      "category": "SOC"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Cyber Security Intern",
+      "organization": "Codec Technologies Pvt. Ltd.",
+      "period": "July 2026 – August 2026",
+      "type": "Internship",
+      "badge": "Security Internship",
+      "icon": "fa-shield-halved",
+      "points": [
+        "Gained practical exposure to cybersecurity concepts, security tools, and security-related projects.",
+        "Developed foundational knowledge of cybersecurity practices through hands-on internship activities.",
+        "Strengthened technical understanding of cybersecurity, network fundamentals, and application security."
+      ],
+      "certificates": [
+        {
+          "name": "Internship Certificate",
+          "link": "/assets/codec_codealpha_internship.pdf"
+        },
+        {
+          "name": "Training Certificate",
+          "link": "/assets/codec_technologies_training.pdf"
+        }
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Cybersecurity Analyst Job Simulation",
+      "organization": "Tata Consultancy Services (TCS)",
+      "period": "June 2026",
+      "type": "Job Simulation",
+      "badge": "IAM Simulation",
+      "icon": "fa-user-shield",
+      "points": [
+        "Completed practical tasks related to Identity and Access Management (IAM).",
+        "Explored IAM fundamentals, strategy assessment, custom IAM solutions, and platform integration.",
+        "Developed an understanding of access management concepts and their importance in organizational security."
+      ],
+      "certificates": [
+        {
+          "name": "TCS Simulation Certificate",
+          "link": "/assets/tcs_forage_cybersecurity_simulation.pdf"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "Introduction to Cybersecurity",
+      "platform": "Cisco Networking Academy",
+      "status": "Completed",
+      "completed": true,
+      "desc": "Covered security fundamentals, threat actors, defensive measures, data confidentiality, and the CIA triad.",
+      "link": "/assets/cisco_cybersecurity_certificate.pdf",
+      "date": "2025"
+    },
+    {
+      "id": "cert-2",
+      "title": "Cybersecurity Analyst Job Simulation",
+      "platform": "Tata Consultancy Services (TCS) / Forage",
+      "status": "Completed",
+      "completed": true,
+      "desc": "Completed hands-on simulation tasks covering enterprise Identity and Access Management (IAM) plans, strategy assessments, and access controls.",
+      "link": "/assets/tcs_forage_cybersecurity_simulation.pdf",
+      "date": "June 2026"
+    },
+    {
+      "id": "cert-3",
+      "title": "Cyber Security Internship Certificate",
+      "platform": "Codec Technologies Pvt. Ltd. / CodeAlpha",
+      "status": "Completed",
+      "completed": true,
+      "desc": "Completed a practical cybersecurity internship focusing on core security concepts, tooling exposure, and hands-on learning.",
+      "link": "/assets/codec_codealpha_internship.pdf",
+      "date": "August 2026"
+    },
+    {
+      "id": "cert-4",
+      "title": "Cyber Security Training Program",
+      "platform": "Codec Technologies Pvt. Ltd.",
+      "status": "Completed",
+      "completed": true,
+      "desc": "Completed structured cybersecurity training covering defensive controls, network fundamentals, and security practices.",
+      "link": "/assets/codec_technologies_training.pdf",
+      "date": "August 2026"
+    },
+    {
+      "id": "cert-5",
+      "title": "Networking Basics",
+      "platform": "Cisco Networking Academy",
+      "status": "Completed",
+      "completed": true,
+      "desc": "Core networking foundations including TCP/IP, IP addressing, DNS, subnetting, network ports, and routing concepts.",
+      "link": "",
+      "date": "2025"
+    },
+    {
+      "id": "cert-6",
+      "title": "Google Cybersecurity Professional Certificate",
+      "platform": "Coursera",
+      "status": "In Progress",
+      "completed": false,
+      "desc": "Ongoing study of Linux administration, Python security scripting, SIEM alerts, and security logging.",
+      "link": "",
+      "date": "Ongoing"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "TECHSYM SAJYU-2025 — National Symposium",
+      "location": "Sengunthar Engineering College",
+      "achievement": "First Prize (Brute Force Quiz) & Second Prize (Phishing Attack)",
+      "desc": "Achieved double podium finishes across hands-on threat identification simulations. Deciphered cryptographic logic puzzles in the Brute Force challenge and analyzed phishing vectors.",
+      "learnings": [
+        "Cryptographic logic decryption & puzzle solving",
+        "Phishing analysis, header evaluation & link triage",
+        "Pressure-driven decision making and threat identification"
+      ],
+      "date": "2025",
+      "certificates": [
+        {
+          "name": "View 1st Place Certificate (Brute Force Brain)",
+          "link": "/assets/techsym_sajyu_2025_brute_force_brain.pdf"
+        },
+        {
+          "name": "View 2nd Place Certificate (Phishing Attack)",
+          "link": "/assets/techsym_sajyu_2025_phishing_attack.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ach-2",
+      "title": "PROTO-THON'26 — National Hackathon",
+      "location": "Dr. K.V. Vasudevan College of Eng & Tech",
+      "achievement": "Participant / Cyber Guardian App",
+      "desc": "Co-developed Cyber Guardian, a utility targeting basic cyber threat footprinting, security awareness training, and digital hygiene scoring.",
+      "learnings": [
+        "Rapid prototyping & defensive security concepts",
+        "User-centric security tooling",
+        "Agile team collaboration under hackathon deadlines"
+      ],
+      "date": "Feb 2026",
+      "link": "/assets/protothon_26_participation.pdf"
+    },
+    {
+      "id": "ach-3",
+      "title": "CodeCraft'25 — 24hr National Hackathon",
+      "location": "Sri Sairam Engineering College",
+      "achievement": "Participant / Gym Fitness App",
+      "desc": "Collaborated in a 24-hour national hackathon to model, construct, and present an application with client-side state workflows under strict time constraints.",
+      "learnings": [
+        "24-hour rapid development and debugging",
+        "Client-side state architecture",
+        "Responsive UI implementation"
+      ],
+      "date": "2025",
+      "link": "/assets/codecraft_25_gym_fitness.pdf"
+    }
+  ],
+  "updatedAt": "2026-10-23T12:11:23.483Z"
+}
